@@ -51,6 +51,7 @@ else
 end
 
 gem_package "passenger" do
+  gem_binary "/usr/bin/gem"
   version node[:passenger][:version]
 end
 
